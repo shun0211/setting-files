@@ -1,0 +1,26 @@
+## Node.jsインストール
+$ brew install nodebrew
+$ echo 'export PATH=$HOME/.nodebrew/current/bin:$PATH' >> ~/.bash_profile
+$ source ~/.bash_profile
+$ mkdir -p ~/.nodebrew/src
+$ nodebrew install-binary latest
+$ nodebrew use v17.1.0
+$ node -v
+
+## Yarnインストール
+$ npm install -g yarn
+$ yarn -v
+
+## Rubocopインストール
+$ sudo gem install solargraph
+$ sudo gem install rubocop
+# rbenvのパス確認
+$ env | grep PATH
+# setting.jsonに追加
+"ruby.rubocop.executePath": "/Users/imd/.rbenv/shims/"
+
+## vender/bunlde以下にGemfileを入れる
+$ bundle install --path vendor/bundle
+
+## mysqlのインストール
+brew install mysql@5.7

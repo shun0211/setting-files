@@ -1,0 +1,21 @@
+{
+  "editor.suggestSelection": "first",
+  "files.autoSave": "afterDelay",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.tabSize": 2,
+  "files.insertFinalNewline": true,
+  "ruby.rubocop.executePath": "/Users/imd/.rbenv/shims/",
+    // Formatで使用するツールを`bundle exec`で実行するかどうか
+    // ここではグローバルにインストールしたGemを使うのでfalseに指定
+  "ruby.useBundler": false,
+  "ruby.format": "rubocop",
+  "ruby.lint": {
+      "rubocop": {
+          "useBundler": false
+      }
+  },
+  "[ruby]": {
+      "editor.defaultFormatter": "misogi.ruby-rubocop"
+  }
+}

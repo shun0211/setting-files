@@ -1,0 +1,16 @@
+# This is Git's per-user configuration file.
+[user]
+	name = shun0211
+	email = my_address
+[alias]
+	ci = commit
+	st = status
+	co = checkout
+	br = branch
+[core]
+	quotepath = false
+	ignorecase = false
+[init]
+	defaultBranch = main
+[push]
+	default = simple
